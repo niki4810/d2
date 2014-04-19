@@ -1,0 +1,16 @@
+<html>
+<head>
+<script src="jquery.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#btnClickMe").click(function(){
+			$("#txtName").text("Hello Bob " + new Date());
+		});		
+	});
+</script>
+</head>
+<body>
+<button id="btnClickMe">Click Me</button>
+<p id="txtName"></p>
+</body>
+</html>
